@@ -1,0 +1,111 @@
+.LoginPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 100vh;
+}
+.LoginForm{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.LoginForm_label{
+    position: relative;
+    display: flex;
+    height: 36px;
+    background-color: aqua;
+    justify-content: center;
+}
+.LoginForm_label>span{
+    position: absolute;
+}
+.LoginForm_label>input{
+    height: 20px;
+    border: 0;
+    background-color: rgb(187, 24, 236);
+}
+
+/*-------------------------------------------*/
+.TrackerApp{
+    display: flex;
+    background-color: rgba(137, 43, 226, 0.205);
+    font-family: 'Roboto', sans-serif;
+}
+.TrackerApp--Materia{
+    background-color: rgba(19, 33, 80, 0.685);
+    border-radius: 10px;
+    position: relative;
+    width: 600px;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/**
+.TrackerApp--Materia:hover>.TackerApp--Materia_Cont_Timepo{
+    justify-content: start;
+}
+**/ 
+.TrackerApp--Materia_Tema{
+    position: absolute;
+    font-size: 20px;
+    left: 15px;
+    top: 10px;
+    font-weight: 100;
+}
+.TackerApp--Materia_Cont_Timepo{
+    width: 270px;
+    display: flex;
+    justify-content: center;
+}
+.TrackerApp--Materia_tiempo{
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.AddTime{
+    position: relative;
+    width : 50px;
+    height:50px;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.AddTime>span{
+    scale: 3;
+}
+.InputModal{
+    position: absolute;
+    height: 100vh;
+    width:100%;
+    background-color: aqua;
+}
+.oculto{
+    display: none;
+}
+
+.modal{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.548);
+    top :0px;
+    left:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Tracker--App__Delete{
+    background-color: rgba(165, 42, 42, 0.479);
+    padding: 5px;
+}

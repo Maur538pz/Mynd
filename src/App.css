@@ -1,0 +1,21 @@
+.Title{
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+}
+.cont_prin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: auto;
+    width: 800px;
+    background-color: rgba(102, 51, 153, 0.445);
+    border-radius: 20px;
+    height: 100vh;
+
+}
+.cont-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
