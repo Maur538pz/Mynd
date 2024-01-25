@@ -10,6 +10,7 @@ export const AddTimeTracker = ({ addNewArea }) =>{
     }
     return (
         <div className='AddTime'>
+            <h1>Esto lo agrege en una nueva rama</h1>
             <span onClick={handleClick}>+</span>
             {viewModal?<PortalModals><NewTimer 
             handleClick={handleClick} 
